@@ -80,3 +80,6 @@ Caso queira testar usando a tabela que eu fiz, criei uma pasata chamada tab_BigQ
 Visualização da Dashboard criada no Looker Studio.
 https://lookerstudio.google.com/reporting/9cdbad15-0322-4d57-aa31-39432bf63934
 
+A tabela final, limpa e estruturada, foi conectada ao Google Looker Studio, onde um painel interativo foi desenvolvido para visualizar as métricas e insights do projeto.
+
+![Painel do Looker Studio](Img/TelaLooker.png)
