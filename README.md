@@ -1,4 +1,8 @@
 Análise de Anúncios Imobiliários: Galpões e Áreas Industriais
+
+![Painel do Looker Studio](Img/TelaLooker.png)
+
+
 Este projeto de portfólio demonstra um fluxo de trabalho completo de ponta a ponta em ciência de dados e engenharia de dados, cobrindo desde a extração de dados da web até a criação de um painel interativo de Business Intelligence. O objetivo foi coletar, tratar e analisar dados de anúncios de galpões e áreas industriais do site WebIndustrial para fornecer insights valiosos sobre o mercado.
 
 Tecnologias Utilizadas
@@ -35,6 +39,12 @@ O LLM foi capaz de inferir a cidade e o estado com base nos endereços, preenche
 
 A tabela de dados brutos foi carregada manualmente no Google BigQuery.
 
+
+
+![Esquema da tabela inicial Antes da Criação das Metricas](Img/tab1_Esquema.png)
+
+
+
 Utilizando SQL no BigQuery, uma série de transformações foram aplicadas para garantir a qualidade dos dados:
 
 Limpeza de Dados: Remoção de caracteres indesejados (R$, m², ,, .) e espaços em branco.
@@ -44,6 +54,16 @@ Conversão de Tipos: Conversão de colunas de texto para numérico (FLOAT64) usa
 Criação de Indicadores: Novas métricas (KPIs) foram calculadas, como custo_locacao_total_mensal e valor_total_mensal_final, arredondando os valores para duas casas decimais.
 
 Categorização: Uma nova dimensão (categoria_tamanho) foi criada, classificando os galpões como 'Pequeno', 'Médio' ou 'Grande' com base na área locável.
+
+
+![Prearação dos dados antes da criação das metricas](Img/Query_Rename.png)
+
+
+![Criação das Metricas e da Categoria Tamanho](Img/Query_Metrica_Dimansao.png)
+
+
+![Esquema da tabela final Depois da Criação das Metricas](Img/tab2_Esquema.png)
+
 
 4. Visualização e Análise
 
