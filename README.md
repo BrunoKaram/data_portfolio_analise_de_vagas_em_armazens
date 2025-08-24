@@ -51,18 +51,18 @@ Limpeza de Dados: Remoção de caracteres indesejados (R$, m², ,, .) e espaços
 
 Conversão de Tipos: Conversão de colunas de texto para numérico (FLOAT64) usando SAFE_CAST para evitar erros.
 
+
+![Prearação dos dados antes da criação das metricas](Img/Query_Rename.png)
+
+
+
 Criação de Indicadores: Novas métricas (KPIs) foram calculadas, como custo_locacao_total_mensal e valor_total_mensal_final, arredondando os valores para duas casas decimais.
 
 Categorização: Uma nova dimensão (categoria_tamanho) foi criada, classificando os galpões como 'Pequeno', 'Médio' ou 'Grande' com base na área locável.
 
 
-![Prearação dos dados antes da criação das metricas](Img/Query_Rename.png)
-
-
 ![Criação das Metricas e da Categoria Tamanho](Img/Query_Metrica_Dimansao.png)
 
-
-![Esquema da tabela final Depois da Criação das Metricas](Img/tab2_Esquema.png)
 
 
 4. Visualização e Análise
@@ -100,6 +100,3 @@ Caso queira testar usando a tabela que eu fiz, criei uma pasata chamada tab_BigQ
 Visualização da Dashboard criada no Looker Studio.
 https://lookerstudio.google.com/reporting/9cdbad15-0322-4d57-aa31-39432bf63934
 
-A tabela final, limpa e estruturada, foi conectada ao Google Looker Studio, onde um painel interativo foi desenvolvido para visualizar as métricas e insights do projeto.
-
-![Painel do Looker Studio](Img/TelaLooker.png)
