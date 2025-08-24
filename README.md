@@ -74,3 +74,9 @@ Carregue os dados brutos no BigQuery.
 Execute as consultas SQL de transformação (fornecidas no repositório) no BigQuery para criar sua tabela final.
 
 Crie seu painel no Looker Studio e conecte-o à sua tabela final no BigQuery.
+
+Caso queira testar usando a tabela que eu fiz, criei uma pasata chamada tab_BigQuery com a tabela "tab_webindustrial_final.csv" que foi a mesma que importei no looker
+
+Visualização da Dashboard criada no Looker Studio.
+https://lookerstudio.google.com/reporting/9cdbad15-0322-4d57-aa31-39432bf63934
+
